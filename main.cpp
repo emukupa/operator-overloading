@@ -3,7 +3,8 @@
 
 std::ostream &operator<<(std::ostream &o, const Rational &r)
 {
-    return o << r.raw_string();
+    // return o << r.raw_string();
+    return o << r.string();
 }
 
 int main()
