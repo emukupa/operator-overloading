@@ -14,9 +14,9 @@ public:
     int numerator() const;
     int denominator() const;
     Rational &operator=(const Rational &);
-    Rational reduce() const; // reduce fraction
-    std::string string() const;
-    std::string raw_string() const;
+    Rational reduce() const;        // reduce fraction
+    std::string string() const;     // return a formatted STL string
+    std::string raw_string() const; // return a non-reduced STL string
     Rational operator+(const Rational &) const;
     Rational operator-(const Rational &) const;
     Rational operator*(const Rational &) const;

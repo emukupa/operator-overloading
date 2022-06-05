@@ -1,0 +1,13 @@
+{
+  "files.associations": {
+    "*.cpp": "cpp",
+    "*.vue": "vue",
+    "__nullptr": "cpp",
+    "compare": "cpp",
+    "string": "cpp",
+    "string_view": "cpp",
+    "type_traits": "cpp",
+    "memory_resource": "cpp",
+    "memory": "cpp"
+  }
+}
