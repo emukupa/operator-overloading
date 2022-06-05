@@ -7,7 +7,8 @@ class Rational
     int d = 1;
 
 public:
-    Rational(int numerator = 0, int denominator = 1);
-    ~Rational();
+    Rational(int numerator = 0, int denominator = 1); // constructor
+    Rational(const Rational &rhs);                    // copy constructor
+    ~Rational();                                      // destructor
 };
 #endif // !RATIONAL_INTERFACE

@@ -1,4 +1,5 @@
 #include <cstdio>
+#include "Rational.h"
 
 int main()
 {
