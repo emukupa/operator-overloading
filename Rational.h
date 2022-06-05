@@ -1,5 +1,6 @@
 #ifndef RATIONAL_INTERFACE
 #define RATIONAL_INTERFACE
+#include <string>
 
 class Rational
 {
@@ -12,5 +13,13 @@ public:
     ~Rational();                                      // destructor
     int numerator() const;
     int denominator() const;
+    Rational &operator=(const Rational &);
+    Rational reduce() const; // reduce fraction
+    std::string string() const;
+    std::string raw_string() const;
+    Rational operator+(const Rational &) const;
+    Rational operator-(const Rational &) const;
+    Rational operator*(const Rational &) const;
+    Rational operator/(const Rational &) const;
 };
 #endif // !RATIONAL_INTERFACE
