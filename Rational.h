@@ -10,5 +10,7 @@ public:
     Rational(int numerator = 0, int denominator = 1); // constructor
     Rational(const Rational &rhs);                    // copy constructor
     ~Rational();                                      // destructor
+    int numerator() const;
+    int denominator() const;
 };
 #endif // !RATIONAL_INTERFACE
